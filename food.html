@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>村民</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="pic/logo.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: rgb(6, 5, 92);">
+  <!-- Start your project here-->  
+  <!--Main Navigation-->
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgba(28, 17, 182, 0.76);">  <!--颜色-->
+    <div class="container"> 
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="index.html" style="font-family:YouYuan; font-size:29px; font-weight:200;">星露谷物语百科</a>
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <!--<li class="nav-item">                                             class="nav-item active"
+          <a class="nav-link" href="#" style="font-size:16px;">农场
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>-->
+
+        <li class="nav-item">
+          <a class="nav-link" href="newguy.html" style="font-size:16px;">新手指南</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">农场</a>
+          <div class="dropdown-menu dropdown-primary " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="home.html" >农舍</a>
+            <a class="dropdown-item" href="plant.html" >农作物</a>
+            <a class="dropdown-item" href="animal.html" >动物</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">社交</a>
+          <div class="dropdown-menu dropdown-primary " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="villager.html" >村民</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">制造</a>
+          <div class="dropdown-menu dropdown-primary " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="equipment.html" >设备</a>
+          </div>
+        </li>
+
+          <li class="nav-item">
+          <a class="nav-link" href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="report.html" style="font-size:16px;">结业报告</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">购买</a>
+          <div class="dropdown-menu dropdown-primary " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="http://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank">Steam商店(需加速器)</a>
+            <a class="dropdown-item" href="https://www.humblebundle.com/store/stardew-valley" target="_blank">Humble商店(需加速器)</a>
+            <a class="dropdown-item" href="https://www.gog.com/game/stardew_valley" target="_blank">GOG商店</a>
+            <a class="dropdown-item" href="https://www.microsoft.com/en-gb/p/stardew-valley/c3d891z6tnqm?activetab=pivot:overviewtab" target="_blank">XBox one</a>
+            <a class="dropdown-item" href="https://www.playstation.com/zh-hans-cn/games/stardew-valley/" target="_blank">PS4</a>
+            <a class="dropdown-item" href="https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Stardew-Valley-1287587.html" target="_blank">Switch</a>
+          </div>
+        </li>
+
+        <!-- 
+        <form class="form-inline">
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          </div>
+        </form>-->
+      </ul>
+    </div>
+    <!-- Collapsible content -->
+    </div>
+  </nav>
+  <!--/.Navbar-->
+</header>
+<!--Main Navigation-->
+  
+<!--Main layout-->
+<main>
+  <main class="mt-5">
+  <!--Main container-->
+<div class="container">
+  
+  <div class="row">
+    <div class="col-md-12 mb-4" >
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;"> </h4>
+      <h1 style="color:white;font-family:YouYuan;">设备</h1>
+      <h5 style="color:white;">•设备（Equipment）是游戏中玩家用来加工物品、原材料，和进行其他工作所用到的机械装置。</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 mb-4" >
+      <h1 style="color:white; font-family:YouYuan; font-weight: 200;">可结婚的村民</h1>
+      <br>
+      <h2 style="color:wheat;font-family:YouYuan;">单身男性</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Alex.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp亚里克斯</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Elliott.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp艾利欧特</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Harvey.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp哈维</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Sam.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp山姆</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Sebastian.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp塞巴斯蒂安</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Shane.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp谢恩</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 mb-4" >
+      <h1 style="color:white; font-family:YouYuan; font-weight: 200;"> </h1>
+      <h2 style="color:wheat;font-family:YouYuan;">单身女性</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Abigail.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp阿比盖尔</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Emily.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp艾米丽</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Haley.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp海莉</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Leah.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp莉亚</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Maru.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp玛鲁</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Penny.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp潘妮</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 mb-4" >
+      <br>
+      <h1 style="color:white;font-family:YouYuan;">其他村民</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Caroline.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp卡洛琳</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Clint.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp克林特</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Demetrius.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp德米特里厄斯</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Dwarf.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp矮人</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Evelyn.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp艾芙琳</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\George.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp乔治</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Gus.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp格斯</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Jas.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp贾斯</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Jodi.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp乔迪</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Kent.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp肯特</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Krobus.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp科罗布斯</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Lewis.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp刘易斯</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Linus.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp莱纳斯</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Marnie.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp玛妮</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Pam.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp潘姆</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Pierre.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp皮埃尔</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Sandy.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp桑迪</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Vincent.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp文森特</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Willy.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp威利</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Wizard.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp法师</h4>
+    </div>
+
+    <div class="col-md-2 mb-4" >
+      <div class="card">
+        <div class="view overlay ">
+          <img src="pic\vill\Leo.png" class="card-img-top" alt="">
+          <div class="mask rgba-white-slight"></div>
+        </div>
+      </div>
+      <h4 style="color:white; font-family:YouYuan; font-weight: 200;">&nbsp&nbsp&nbsp&nbsp雷欧</h4>
+    </div>
+  </div>
+
+</div>
+<!--Main container-->
+</main>
+<!--Main layout-->
+
+<!--Footer-->
+<footer>
+    <!-- Footer -->
+<footer class="page-footer font-small pt-4 mt-4" style="background-color:rgba(28, 17, 182, 0.76);">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row" >
+      <div class="col-md-12 mt-md-0 mt-3">
+        <div class="container text-center text-md-left">
+
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-10 mt-md-0 mt-3">
+      
+              <!-- Content -->
+              <h6 class="text-uppercase">•本站点内容全部基于<a href="https://stardewcommunitywiki.com/Stardew_Valley_Wiki" style="color:lightgreen;" target="_blank">官方维基</a>和游戏资料制作，非商业用途。</h6>
+              <h6 class="text-uppercase">•反对任何破解和盗版行为，请前往steam商店或或其他商店购买正版支持原作者的辛勤劳动。</h6>
+              <h6 class="text-uppercase">•联系方式QQ2691234619</h6>
+              <br>     
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+      
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3">
+              <a href="#" class="btn btn-light-blue" style="font-size:15px;">回到顶部</a>
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+      </div>
+
+    </div>
+    <!-- Grid row -->
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">星露谷版权所有© 2016-2021 ConcernedApe有限责任公司
+    <!--<a href="https://www.rockstargames.com/"> rockstargames.com</a>-->
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+<!-- End your project here-->
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
